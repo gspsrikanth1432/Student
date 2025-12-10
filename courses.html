@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Salaar University</title>
+    <link rel="icon" href="b.png"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            background-color: black !important;
+        }
+
+        .navbar-brand {
+            color: crimson !important;
+            font-weight: bold;
+        }
+
+        .hi {
+            color: crimson;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 10px;
+        }
+
+        .course-card {
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .card-title {
+            color: crimson;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg shadow-sm px-4">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="e.png" width="50px" class="me-2">
+            <h6 class="hi">Salaar<br>University</h6>
+        </a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container mt-5 pt-5">
+    <h2 class="text-center mb-4">Our Courses</h2>
+
+    <div class="row g-4 justify-content-center">
+
+        <!-- B.Tech Card -->
+        <div class="col-md-4">
+            <div class="card course-card shadow p-3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">B.Tech</h5>
+                    <p class="card-text">Bachelor of Technology in various streams like CSE, IT, EEE, Civil, Mech.</p>
+                    <a href="departments.html" class="btn btn-primary">View Departments</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+            
+
+            <!-- Add More Courses Here -->
+            
+        </div>
+    </div>
+
+</body>
+</html>

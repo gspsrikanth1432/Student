@@ -1,0 +1,37 @@
+.navbar {
+    background-color: pink;
+}
+
+.nav-item {
+    font-weight: bold;
+    color: black;
+}
+
+#home {
+    background-image: url('https://img.freepik.com/free-photo/nectarines-basket-pink-grungy-wall-side-view_176474-8586.jpg?semt=ais_hybrid&w=740&q=80');
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.organic {
+    font-size: 50px;
+}
+.d-block{
+    aspect-ratio: 3/1;
+}
+.fruits{
+    width:80%;
+    aspect-ratio: 3/3;
+}
+.input-group-text{
+    background-color: pink;
+    border:none;
+    box-shadow: 1px 2px 7px black;;
+}
+#footer{
+    background-color: pink;
+}

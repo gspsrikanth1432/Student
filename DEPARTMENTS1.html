@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments & Subjects</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .section-title {
+            color: crimson;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .card-header {
+            background: black !important;
+            color: white !important;
+            cursor: pointer;
+        }
+
+        .subject-card {
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .hi{
+            margin-top: -50px;
+            margin-left: 70px;
+            color: crimson;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="e.png" alt=""
+                    width="60px"><h6 class="hi">Salaar<br>University</h6></a>
+        
+            <!-- <h6 id="hi">Salaar<br>University</h6> -->
+        </div>
+    </nav>
+
+<div class="container py-4">
+
+    <h2 class="section-title">Departments</h2>
+
+    <!-- DEPARTMENT ACCORDION -->
+    <div class="accordion" id="deptAccordion">
+
+        <!-- ===================== CSE ===================== -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="cseHead">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cse">
+                    CSE - Computer Science Engineering
+                </button>
+            </h2>
+            <div id="cse" class="accordion-collapse collapse" data-bs-parent="#deptAccordion">
+                <div class="accordion-body">
+
+                    <!-- SEMESTERS -->
+                    <div class="accordion" id="cseSem">
+
+                        <!-- SEM 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem1">
+                                    Semester 1
+                                </button>
+                            </h2>
+                            <div id="cseSem1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – I</div>
+                                    <div class="subject-card">Physics</div>
+                                    <div class="subject-card">Programming in C</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 2
+                                </button>
+                            </h2>
+                            <div id="cseSem2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – II</div>
+                                    <div class="subject-card">Chemistry</div>
+                                    <div class="subject-card">Python</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem3">
+                                    Semester 3
+                                </button>
+                            </h2>
+                            <div id="cseSem3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">DBMS</div>
+                                    <div class="subject-card">Digital logic design</div>
+                                    <div class="subject-card">Computer Networks</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 4
+                                </button>
+                            </h2>
+                            <div id="cseSem4" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Probability & Statistics</div>
+                                    <div class="subject-card">Web Technologies</div>
+                                    <div class="subject-card">Software Engineering</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 5
+                                </button>
+                            </h2>
+                            <div id="cseSem5" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Machine Learning</div>
+                                    <div class="subject-card">Cloud Computing</div>
+                                    <div class="subject-card">Big Data</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 6
+                                </button>
+                            </h2>
+                            <div id="cseSem6" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Cyber Security</div>
+                                    <div class="subject-card">AI</div>
+                                    <div class="subject-card">Compiler Design</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 7
+                                </button>
+                            </h2>
+                            <div id="cseSem7" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Dataminig</div>
+                                    <div class="subject-card">java</div>
+                                    <div class="subject-card">Frontend</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 8
+                                </button>
+                            </h2>
+                            <div id="cseSem8" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Project</div>
+                                    <div class="subject-card">Internship</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ===================== IT ===================== -->
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="cseHead">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cse">
+                    IT - Information Technology
+                </button>
+            </h2>
+            <div id="cse" class="accordion-collapse collapse" data-bs-parent="#deptAccordion">
+                <div class="accordion-body">
+
+                    <!-- SEMESTERS -->
+                    <div class="accordion" id="cseSem">
+
+                        <!-- SEM 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem1">
+                                    Semester 1
+                                </button>
+                            </h2>
+                            <div id="cseSem1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – I</div>
+                                    <div class="subject-card">Physics</div>
+                                    <div class="subject-card">Chemistry</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 2
+                                </button>
+                            </h2>
+                            <div id="cseSem2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – II</div>
+                                    <div class="subject-card">Programming in C</div>
+                                    <div class="subject-card">Python</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem3">
+                                    Semester 3
+                                </button>
+                            </h2>
+                            <div id="cseSem3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Data Structures</div>
+                                    <div class="subject-card">Digital logic design</div>
+                                    <div class="subject-card">Computer Networks</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 4
+                                </button>
+                            </h2>
+                            <div id="cseSem4" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">DBMS</div>
+                                    <div class="subject-card">Web Technologies</div>
+                                    <div class="subject-card">Software Engineering</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 5
+                                </button>
+                            </h2>
+                            <div id="cseSem5" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Machine Learning</div>
+                                    <div class="subject-card">JAVA</div>
+                                    <div class="subject-card">Big Data</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 6
+                                </button>
+                            </h2>
+                            <div id="cseSem6" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Cyber Security</div>
+                                    <div class="subject-card">AI</div>
+                                    <div class="subject-card">Compiler Design</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 7
+                                </button>
+                            </h2>
+                            <div id="cseSem7" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Data Mining</div>
+                                    <div class="subject-card">Cloud Computing</div>
+                                    <div class="subject-card">Frontend</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 8
+                                </button>
+                            </h2>
+                            <div id="cseSem8" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Project</div>
+                                    <div class="subject-card">Internship</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ===================== ECE ===================== -->
+        
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="cseHead">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cse">
+                    ECE  -  Electronics and Communication Engineering
+                </button>
+            </h2>
+            <div id="cse" class="accordion-collapse collapse" data-bs-parent="#deptAccordion">
+                <div class="accordion-body">
+
+                    <!-- SEMESTERS -->
+                    <div class="accordion" id="cseSem">
+
+                        <!-- SEM 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem1">
+                                    Semester 1
+                                </button>
+                            </h2>
+                            <div id="cseSem1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – I</div>
+                                    <div class="subject-card">Physics</div>
+                                    <div class="subject-card">Chemistry</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 2
+                                </button>
+                            </h2>
+                            <div id="cseSem2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – II</div>
+                                    <div class="subject-card">Programming in C</div>
+                                    <div class="subject-card">Signals & Systems</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem3">
+                                    Semester 3
+                                </button>
+                            </h2>
+                            <div id="cseSem3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Analog Circuits</div>
+                                    <div class="subject-card">Digital Circuits</div>
+                                    <div class="subject-card">Electromagnetics</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 4
+                                </button>
+                            </h2>
+                            <div id="cseSem4" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">VLSI</div>
+                                    <div class="subject-card">IOT</div>
+                                    <div class="subject-card">Antennas</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 5
+                                </button>
+                            </h2>
+                            <div id="cseSem5" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Probability & Statistics</div>
+                                    <div class="subject-card">JAVA</div>
+                                    <div class="subject-card">Circuit Analysis</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 6
+                                </button>
+                            </h2>
+                            <div id="cseSem6" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Embedded Systems</div>
+                                    <div class="subject-card">Communication Systems</div>
+                                    <div class="subject-card">Compiler Design</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 7
+                                </button>
+                            </h2>
+                            <div id="cseSem7" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Data Structures</div>
+                                    <div class="subject-card">MicroProccessors</div>
+                                    <div class="subject-card">Information Theory</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 8
+                                </button>
+                            </h2>
+                            <div id="cseSem8" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Project</div>
+                                    <div class="subject-card">Internship</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ===================== CIVIL ===================== -->
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="cseHead">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cse">
+                    CIVIL Engineering
+                </button>
+            </h2>
+            <div id="cse" class="accordion-collapse collapse" data-bs-parent="#deptAccordion">
+                <div class="accordion-body">
+
+                    <!-- SEMESTERS -->
+                    <div class="accordion" id="cseSem">
+
+                        <!-- SEM 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem1">
+                                    Semester 1
+                                </button>
+                            </h2>
+                            <div id="cseSem1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – I</div>
+                                    <div class="subject-card">Physics</div>
+                                    <div class="subject-card">Chemistry</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 2
+                                </button>
+                            </h2>
+                            <div id="cseSem2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – II</div>
+                                    <div class="subject-card">Calculus</div>
+                                    <div class="subject-card">Mechanics</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem3">
+                                    Semester 3
+                                </button>
+                            </h2>
+                            <div id="cseSem3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Engineering Machines</div>
+                                    <div class="subject-card">Engineering Drawing</div>
+                                    <div class="subject-card">Programming in C</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 4
+                                </button>
+                            </h2>
+                            <div id="cseSem4" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">MEchanics of Solids</div>
+                                    <div class="subject-card">Structural Analysis</div>
+                                    <div class="subject-card">Fluid Mechanics</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 5
+                                </button>
+                            </h2>
+                            <div id="cseSem5" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Machine Learning</div>
+                                    <div class="subject-card">JAVA</div>
+                                    <div class="subject-card">Big Data</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 6
+                                </button>
+                            </h2>
+                            <div id="cseSem6" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Structural Engineering</div>
+                                    <div class="subject-card">Advanced Structural Design</div>
+                                    <div class="subject-card">Bridge</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 7
+                                </button>
+                            </h2>
+                            <div id="cseSem7" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Hydraulick Engineering</div>
+                                    <div class="subject-card">Transportation Engineering</div>
+                                    <div class="subject-card">Geotechnical Engineering</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 8
+                                </button>
+                            </h2>
+                            <div id="cseSem8" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Project</div>
+                                    <div class="subject-card">Internship</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- EEE- Electrical and Electronincs Engineering -->
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="cseHead">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cse">
+                    EEE  -  Electrical and Electronics Engineering
+                </button>
+            </h2>
+            <div id="cse" class="accordion-collapse collapse" data-bs-parent="#deptAccordion">
+                <div class="accordion-body">
+
+                    <!-- SEMESTERS -->
+                    <div class="accordion" id="cseSem">
+
+                        <!-- SEM 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem1">
+                                    Semester 1
+                                </button>
+                            </h2>
+                            <div id="cseSem1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – I</div>
+                                    <div class="subject-card">Physics</div>
+                                    <div class="subject-card">Programming in C</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 2
+                                </button>
+                            </h2>
+                            <div id="cseSem2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – II</div>
+                                    <div class="subject-card">Chemistry</div>
+                                    <div class="subject-card">Circuit Theory</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem3">
+                                    Semester 3
+                                </button>
+                            </h2>
+                            <div id="cseSem3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Machines</div>
+                                    <div class="subject-card">Power Systems</div>
+                                    <div class="subject-card">Electronics</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 4
+                                </button>
+                            </h2>
+                            <div id="cseSem4" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Electromagnetic Theory</div>
+                                    <div class="subject-card">Electrical Machines</div>
+                                    <div class="subject-card">Electronic Instrumentation</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 5
+                                </button>
+                            </h2>
+                            <div id="cseSem5" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Power Electronics</div>
+                                    <div class="subject-card">MicroProccessors</div>
+                                    <div class="subject-card">Power Systems</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 6
+                                </button>
+                            </h2>
+                            <div id="cseSem6" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Anoalog Electronics</div>
+                                    <div class="subject-card">Digital Signal Processing</div>
+                                    <div class="subject-card">Communication Engineering</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 7
+                                </button>
+                            </h2>
+                            <div id="cseSem7" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">VLSI</div>
+                                    <div class="subject-card">Power System Protection</div>
+                                    <div class="subject-card">Electrical Machines-II</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 8
+                                </button>
+                            </h2>
+                            <div id="cseSem8" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Project</div>
+                                    <div class="subject-card">Internship</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Mechanical Engineering -->
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="cseHead">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cse">
+                    Mechanical Engineering
+                </button>
+            </h2>
+            <div id="cse" class="accordion-collapse collapse" data-bs-parent="#deptAccordion">
+                <div class="accordion-body">
+
+                    <!-- SEMESTERS -->
+                    <div class="accordion" id="cseSem">
+
+                        <!-- SEM 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem1">
+                                    Semester 1
+                                </button>
+                            </h2>
+                            <div id="cseSem1" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – I</div>
+                                    <div class="subject-card">Physics</div>
+                                    <div class="subject-card">Programming in C</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 2
+                                </button>
+                            </h2>
+                            <div id="cseSem2" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Mathematics – II</div>
+                                    <div class="subject-card">Chemistry</div>
+                                    <div class="subject-card">Python</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEM 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem3">
+                                    Semester 3
+                                </button>
+                            </h2>
+                            <div id="cseSem3" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Thermodynamics</div>
+                                    <div class="subject-card">Fluid Mechanics</div>
+                                    <div class="subject-card">Strength of Materials</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 4
+                                </button>
+                            </h2>
+                            <div id="cseSem4" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Engineering Mechanics</div>
+                                    <div class="subject-card">Manufaturing Technology</div>
+                                    <div class="subject-card">Kinematics of Machines</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 5
+                                </button>
+                            </h2>
+                            <div id="cseSem5" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Engineering Mechanics</div>
+                                    <div class="subject-card">Material Science</div>
+                                    <div class="subject-card">Metallurgy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 6
+                                </button>
+                            </h2>
+                            <div id="cseSem6" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Machine Drawing</div>
+                                    <div class="subject-card">Manufacturing Technology-II</div>
+                                    <div class="subject-card">Metrology</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 7
+                                </button>
+                            </h2>
+                            <div id="cseSem7" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Heat And Mass Transfer</div>
+                                    <div class="subject-card">Theory of Machines</div>
+                                    <div class="subject-card">Industrial Engineering</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEM 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#cseSem2">
+                                    Semester 8
+                                </button>
+                            </h2>
+                            <div id="cseSem8" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="subject-card">Project</div>
+                                    <div class="subject-card">Internship</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

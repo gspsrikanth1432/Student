@@ -1,0 +1,37 @@
+body {
+    /* background: linear-gradient(rgba(0,0,50,0.6), rgba(0,0,50,0.6)),
+                url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1'); */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.signup-card {
+    width: 100%;
+    max-width: 850px;   /* ✔ Width more than 800px */
+    border-radius: 20px;
+    background: black;
+    backdrop-filter: blur(6px);
+    padding: 35px;
+    color: crimson;
+}
+
+.signup-card h2 {
+    font-weight: 700;
+}
+
+#hi{
+   
+    margin-top: -50px;
+    margin-left: 70px;
+    font-weight: None;
+    
+}
+.navbar-brand{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    margin-top: 50px;
+}

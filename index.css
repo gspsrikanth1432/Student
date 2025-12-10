@@ -1,0 +1,108 @@
+/* Full background image */
+body {
+    margin: 0;
+    padding: 0;
+    height: 99vh;
+    background: url('d.jpg') no-repeat center center/cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center content on the screen */
+.overlay-container {
+    height: 100%;
+    width: 100%;
+}
+#HI{
+    padding-top: 10%;
+}
+.hello{
+    padding-bottom: -45%;
+}
+
+/* Semi-transparent box */
+.over{
+    background: rgba(40, 31, 8, 0.33); /* 1/3 opacity */
+    width: 40%;
+    max-width: 700px;
+    height: 89%;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Text styling */
+.welcome-text {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: -5%;
+    padding-bottom: 40%;
+}
+
+.college-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Start button styling */
+.hey {
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: brown;
+    background-color: black;
+}
+@media (max-width: 1024px) {
+    .over {
+        width: 55%;
+    }
+
+    .welcome-text {
+        font-size: 2.2rem;
+    }
+}
+
+/* Large Phones */
+@media (max-width: 768px) {
+    .over {
+        width: 70%;
+        padding: 30px 20px;
+    }
+
+    .hello {
+        width: 70%;
+    }
+
+    .welcome-text {
+        font-size: 1.9rem;
+    }
+
+    .hey {
+        font-size: 1rem;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+    .over {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .hello {
+        width: 80%;
+    }
+
+    .welcome-text {
+        font-size: 1.6rem;
+    }
+
+    .hi button {
+        padding: 10px 25px;
+    }
+}

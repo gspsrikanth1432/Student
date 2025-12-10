@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sign Up</title>
+    <link rel="icon" href="b.png"/>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stusignup.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="e.png" alt=""
+                    width="60px">
+            <h6 id="hi">Salaar<br>University</h6></a>
+        
+        </div>
+    </nav>
+    <!-- <h6 id="hi">Salaar<br>University</h6> -->
+
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+        <div class="card p-4 shadow signup-card">
+
+            <h2 class="text-center mb-4">Student Sign Up</h2>
+
+            <form action="stulogin.html" method="get">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your Full Name" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Email ID</label>
+                        <input type="text" class="form-control" placeholder="Enter Email Id" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Student Id</label>
+                        <input type="text" class="form-control" placeholder="Enter your Student Id" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" placeholder="Enter your Phone Number" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Department</label>
+                        <select class="form-select" required>
+                            <option selected>Select</option>
+                            <option>CSE</option>
+                            <option>IT</option>
+                            <option>ECE</option>
+                            <option>EEE</option>
+                            <option>CIVIL</option>
+                            <option>MECH</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Year</label>
+                        <select class="form-select" required>
+                            <option selected>Select</option>
+                            <option>1st Year</option>
+                            <option>2nd Year</option>
+                            <option>3rd Year</option>
+                            <option>4th Year</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter Password" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" placeholder="Confirm Password" required>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 mt-4">Sign Up</button>
+
+            </form>
+
+            <p class="text-center mt-3">
+                Already have an account? <a href="stulogin.html">Login</a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

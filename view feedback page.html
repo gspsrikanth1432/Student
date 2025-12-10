@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Feedback - Admin</title>
+    <link rel="icon" href="b.png"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            background-color: black !important;
+        }
+
+        .navbar-brand {
+            color: crimson !important;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .hi {
+            color: crimson;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 10px;
+        }
+
+        .feedback-card {
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feedback-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .feedback-header {
+            color: crimson;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark shadow-sm px-4">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="e.png" width="50px" class="me-2">
+            <h6 class="hi">Salaar<br>University</h6>
+        </a>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+        <h2 class="text-center mb-4">Student Feedback</h2>
+
+        <div class="row g-4">
+
+            <!-- Feedback Card Example -->
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Monica Belluci</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: CSE</p>
+                    <p>Totol AVG Rating: 5/5</p>
+                    <p>Comments: I Love Andhra kurrolu in this college.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Mike Tison</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: IT</p>
+                    <p>Total AVG Rating: 4/5</p>
+                    <p>Comments: Come to the College big boy!.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Smrithi Mandhana</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: ECE</p>
+                    <p>Total AVG Rating: 2/5</p>
+                    <p>Comments: Need more sports equipments to play Cricket.</p>
+                </div>
+            </div>
+
+            <!-- Repeat similar cards for 20+ feedback entries -->
+            <!-- Example additional feedback cards -->
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Sandeep Reedy Vanga</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 1/5</p>
+                    <p>Comments: I Dont Like the Colors in this college just change.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Upalapati Prabhas Raju</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 3/5</p>
+                    <p>Comments: I Kindly Request.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Kalani Priyadarshini</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: CSE</p>
+                    <p>Total AVG Rating: 4/5</p>
+                    <p>Comments: Needs improvement in lab sessions.</p>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Nazriya Nazim</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: CSE</p>
+                    <p>Total AVG Rating: 3.5/5</p>
+                    <p>Comments: Everybody asking Biryani.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Bhalaladeva</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Civil</p>
+                    <p>Total AVG Rating: 5/5</p>
+                    <p>Comments: Manakendhuku Bossu.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: James Bond</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 3.5/5</p>
+                    <p>Comments: Needs improvement in lab sessions.</p>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Bob Williams</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: EEE</p>
+                    <p>Total AVG Rating: 4/5</p>
+                    <p>Comments: Good curriculum but needs more practicals.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Keerthi duduru</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Civil</p>
+                    <p>Total AVG Rating: 4.1/5</p>
+                    <p>Comments: Very helpful professors.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Dhanu Derengula</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 2.5/5</p>
+                    <p>Comments: Needs improvement in lab sessions.</p>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Avanthika </h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: EEE</p>
+                    <p>Total AVG Rating: 3/5</p>
+                    <p>Comments: Nothing.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Haseemai  </h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: CSE</p>
+                    <p>Total AVG Rating: 3.75/5</p>
+                    <p>Comments: Machinary needs improvements.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: mehaarin pizard</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: CSE</p>
+                    <p>Total AVG Rating: 2.89/5</p>
+                    <p>Comments: more lab sessions.</p>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Bob Williams</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: It</p>
+                    <p>Total AVG Rating: 2.4/5</p>
+                    <p>Comments: Needs more Improvement.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Anu Emanual</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: EEE</p>
+                    <p>Total AVG Rating: 3.9/5</p>
+                    <p>Comments: Very helpful professors.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Nandarmuri Tarka Ramarao</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 3/5</p>
+                    <p>Comments: Needs improvement in lab sessions.</p>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Ram Attluri</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: IT</p>
+                    <p>Total AVG Rating: 3.55/5</p>
+                    <p>Comments: Good curriculum but needs more practicals.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Niharika Naa</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: EEE</p>
+                    <p>Total AVG Rating: 5/5</p>
+                    <p>Comments: Very helpful professors.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Bhavani Monddedhula</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 3.23/5</p>
+                    <p>Comments: Needs improvement in lab sessions.</p>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Maheshwari Jajula  </h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: IT</p>
+                    <p>Total AVG Rating: 4/5</p>
+                    <p>Comments: Good curriculum but needs more practicals.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Rani Lakshmibhai</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: ECE</p>
+                    <p>Total AVG Rating: 5/5</p>
+                    <p>Comments: Very helpful professors.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feedback-card p-3 shadow">
+                    <h5 class="feedback-header">Student: Arjun Muragadas</h5>
+                    <p>Course: B.Tech</p>
+                    <p>Department: Mech</p>
+                    <p>Total AVG Rating: 3/5</p>
+                    <p>Comments: Needs improvement in lab sessions.</p>
+                </div>
+            </div>
+
+            <!-- Continue adding cards up to 20+ feedbacks -->
+            
+            <!-- Use copy-paste and change names, departments, semesters, ratings, comments -->
+
+        </div>
+    </div>
+
+</body>
+</html>

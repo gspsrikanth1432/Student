@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Overview</title>
+
+    <style>
+      :root {
+            --soft-green: #e2f8ce;
+            --sidebar-green: rgb(147, 235, 99);
+            --accent: rgb(121, 246, 90);
+        }
+
+        body {
+            margin: 0;
+            background: #e9fbd1;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+
+        /* SIDEBAR */
+         .sidebar {
+            width: 240px;
+            background: var(--sidebar-green);
+            padding: 28px 20px;
+            min-height: 100vh;
+            border-right: 2px solid #b6eaa0;
+        }
+
+        .sidebar-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+
+        .menu-item {
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .menu-item:hover {
+            background: whitesmoke;
+            padding-left: 14px
+        }
+         .logout {
+            margin-top: 30px;
+            cursor: pointer;
+            margin-left: 5%;
+        }
+
+
+        /* MAIN CONTENT */
+        .main {
+            flex-grow: 1;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        /* PROFILE CARD */
+        .profile-card {
+            width: 55%;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .profile-card img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid #8eec65;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            text-align: left;
+            font-size: 18px;
+            margin-top: 20px;
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        .label {
+            font-weight: bold;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+     <div class="sidebar">
+        <div class="sidebar-title">Attendance Portal</div>
+
+        <div class="menu-item" onclick="location.href='portal.html'">🏠 Dashboard</div>
+        <div class="menu-item" onclick="location.href='employee_register.html'">👤 Employee Registration</div>
+        <div class="menu-item" onclick="location.href='employee_database.html'">📁 Employee Database</div>
+        <div class="menu-item" onclick="location.href='attendance.html'">🕒 Attendance</div>
+        <div class="menu-item" onclick="location.href='leave.html'">📅 Leave</div>
+        <div class="menu-item" onclick="location.href='walls.html'">📰 Walls</div>
+        <div class="menu-item" onclick="location.href='settings.html'">⚙ Settings</div>
+        <div class="menu-item" onclick="location.href='profile_overview.html'">👤 Profile</div>
+        <div class="logout" onclick="location.href='login.html'">↩ Logout</div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+
+        <h2>👤 My Profile Overview</h1>
+
+        <div class="profile-card">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+            <div class="info">
+                <div><span class="label">Full Name:</span> Annavarapu Lokesh</div>
+                <div><span class="label">Email:</span> lokesh@gmail.com</div>
+                <div><span class="label">Phone:</span> +91 9876543210</div>
+                <div><span class="label">Employee ID:</span> EMP101</div>
+                <div><span class="label">Designation:</span> SDE</div>
+                <div><span class="label">Experience:</span> 4 Years</div>
+                <div><span class="label">Joined On:</span> 12 March 2021</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
